@@ -1,0 +1,27 @@
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+.card{
+    flex: 0 0 200px;
+    margin: 20px;
+    border: 2px solid black;
+    box-shadow: 8px 8px 10px 0px  rgba(0,0,0,0.5);
+}
+img{
+    max-width: 100%;
+}
+
+
+.text{
+    text-align: center;
+}
+
+.btn{
+ background-color:gray;
+ margin-bottom: 20px;
+ padding: 10px;
+ color: white;
+ border: 0;
+}
